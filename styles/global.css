@@ -690,6 +690,10 @@ main {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  main {
+    padding: 0 10px;
+  }
+
   .header {
     padding: 1rem 1.5rem;
   }
@@ -720,7 +724,7 @@ main {
   }
   
   .hero-centered {
-    padding: 6rem 1.5rem 3rem;
+    padding: 6rem 0.5rem 3rem;
   }
   
   .hero-content-centered {
@@ -772,7 +776,7 @@ main {
 
 @media (max-width: 480px) {
   .section {
-    padding: 3rem 1.5rem;
+    padding: 3rem 0.5rem;
 }
 
   .hero-title-centered {
