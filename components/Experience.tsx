@@ -11,8 +11,7 @@ export const Experience: React.FC = () => {
       company: t('experience.job1.company'),
       location: t('experience.job1.location'),
       period: t('experience.job1.period'),
-      description: t('experience.job1.description'),
-      technologies: ['React.js', 'React Styleguidist', 'Tailwind CSS', 'Laravel', 'GraphQL']
+      description: t('experience.job1.description')
     },
     {
       id: '2',
@@ -20,8 +19,7 @@ export const Experience: React.FC = () => {
       company: t('experience.job2.company'),
       location: t('experience.job2.location'),
       period: t('experience.job2.period'),
-      description: t('experience.job2.description'),
-      technologies: ['React.js', 'React Styleguidist', 'Lararel', 'GraphQL']
+      description: t('experience.job2.description')
     },
     {
       id: '3',
@@ -30,8 +28,7 @@ export const Experience: React.FC = () => {
       company: t('experience.job3.company'),
       location: t('experience.job3.location'),
       period: t('experience.job3.period'),
-      description: t('experience.job3.description'),
-      technologies: ['JavaScript', 'HTML', 'CSS', 'SCSS', 'PHP', 'API REST', 'MySQL', 'Git', 'Visual Studio Code']
+      description: t('experience.job3.description')
     }
   ];
 
@@ -60,14 +57,7 @@ export const Experience: React.FC = () => {
                 </div>
                 
                 <p className="experience-description">{exp.description}</p>
-                
-                <div className="tech-badges">
-                  {exp.technologies.map((tech) => (
-                    <span key={tech} className="tech-badge">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+
               </div>
             </div>
           ))}

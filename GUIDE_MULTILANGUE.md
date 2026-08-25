@@ -140,7 +140,7 @@ Voici toutes les clés disponibles (organisées par section) :
 - `hero.available`, `hero.greeting`, `hero.name`, `hero.title`, `hero.description`, `hero.contact`, `hero.projects`
 
 ### About
-- `about.title`, `about.p1`, `about.p2`, `about.p3`, `about.years`, `about.projects`, `about.clients`
+- `about.title`, `about.p1`, `about.years`, `about.projects`, `about.clients`
 
 ### Skills
 - `skills.title`, `skills.subtitle`, `skills.frontend`, `skills.backend`, `skills.tools`
@@ -152,7 +152,7 @@ Voici toutes les clés disponibles (organisées par section) :
 
 ### Projects
 - `projects.title`, `projects.subtitle`, `projects.view`, `projects.viewMore`
-- `projects.project1.title`, `projects.project1.description`
+- `projects.project1.title`,
 - `projects.project2.*`, `projects.project3.*`
 
 ### Contact

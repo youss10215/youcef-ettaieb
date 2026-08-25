@@ -14,25 +14,12 @@ export const About: React.FC = () => {
             <p className="text-lg mb-6">
               {t('about.p1')}
             </p>
-            
             <p className="text-lg mb-6">
               {t('about.p2')}
             </p>
-
-            {/* <div className="stats-grid">
-              <div className="stat-card">
-                <div className="stat-number gradient-text">5+</div>
-                <div className="stat-label">{t('about.years')}</div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-number gradient-text">50+</div>
-                <div className="stat-label">{t('about.projects')}</div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-number gradient-text">30+</div>
-                <div className="stat-label">{t('about.clients')}</div>
-              </div>
-            </div> */}
+            <p className="text-lg mb-6">
+              {t('about.p3')}
+            </p>
           </div>
         </div>
       </div>

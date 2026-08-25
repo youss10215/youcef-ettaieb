@@ -8,7 +8,6 @@ export const Projects: React.FC = () => {
     {
       id: '1',
       title: t('projects.project1.title'),
-      description: t('projects.project1.description'),
       emoji: '💡',
       link: 'https://yoomap.fr/',
       gradient: 'from-blue-500 to-purple-600'
@@ -16,7 +15,6 @@ export const Projects: React.FC = () => {
     {
       id: '2',
       title: t('projects.project2.title'),
-      description: t('projects.project2.description'),
       emoji: '🏠',
       link: 'https://sopeadeco.fr/',
       gradient: 'from-pink-500 to-orange-500'
@@ -24,7 +22,6 @@ export const Projects: React.FC = () => {
     // {
     //   id: '3',
     //   title: t('projects.project3.title'),
-    //   description: t('projects.project3.description'),
     //   emoji: '🏝️',
     //   link: 'https://cv-island.vercel.app/',
     //   gradient: 'from-green-500 to-teal-600'
@@ -48,9 +45,8 @@ export const Projects: React.FC = () => {
               
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.description}</p>
                 
-                <a className="btn-secondary btn-full" href={project.link} target="_blank" rel="noopener noreferrer">
+                <a className="btn-secondary btn-full see-project" href={project.link} target="_blank" rel="noopener noreferrer">
                   {t('projects.view')}
                 </a>
               </div>
